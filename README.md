@@ -65,6 +65,7 @@ In 2015 Square Payroll was annunced. This is a tool for small business owners to
 
 
 * What are the other major companies in this domain?
+
 Paypal, venmo, Google wallet, Intuit Inc
 
 ## Results
