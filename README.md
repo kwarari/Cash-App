@@ -39,7 +39,7 @@ The **small business administartion**(SBA) definea a small business as a firm wh
 
 * What solution does this company offer that their competitors do not or cannot offer? (What is the unfair advantage they utilize?)
 
-The company uses technology capable of aggregating merchant services and mobile payments into a single, easy-to-use service. Compared to their competitors square enable sellers to turn mobile devices and computing devices into payments and point-of-sale solutions. Once a seller downloads the Square Point of Sale mobile application, they can accept payments in person via magnetic stripe (a swipe), Europay, MasterCard, and Visa (EMV) (a dip), or Near Field Communication (NFC) (a tap); or online via Square Invoices, Square Virtual Terminal, or the seller's Website
+The company uses technology capable of aggregating merchant services and mobile payments into a single, easy-to-use service. Compared to their, competitors square enable sellers to turn mobile devices and computing devices into payments and point-of-sale solutions. Once a seller downloads the Square Point of Sale mobile application, they can accept payments in person via magnetic stripe (a swipe), Europay, MasterCard, and Visa (EMV) (a dip), or Near Field Communication (NFC) (a tap); or online via Square Invoices, Square Virtual Terminal, or the seller's Website
 
 * Which technologies are they currently using, and how are they implementing them? (This may take a little bit of sleuthing–– you may want to search the company’s engineering blog or use sites like Stackshare to find this information.)
 
