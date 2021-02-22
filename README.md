@@ -43,6 +43,25 @@ The company uses technology capable of aggregating merchant services and mobile 
 
 * Which technologies are they currently using, and how are they implementing them? (This may take a little bit of sleuthing–– you may want to search the company’s engineering blog or use sites like Stackshare to find this information.)
 
+The comapny uses a wide variety of technologies listed below;
+1) *Cleanse* - Cleanse is a Swift dependency injection framework that is used to wire libraries. Wiring libraries, simply put, is where dependency injection is performed via Cleanse by creating bindings, modules, and components for the objects that are injected into the applications.
+2) *Using AWS Lambda Extensions to Accelerate AWS Secrets Manager Access* - AWS Lambda Extensions are a new way for tools to integrate deeply into the Lambda environment, and they can run before the start of a Lambda function. This allows square to perform preparatory tasks that are only necessary on a cold start.
+3) *Radiography* - a small library for looking at view hierarchies with text-ray vision. This library is used to provide context in automated crash reports and help debug development apps. Recently the code has been coverted to Kotlin and the API has been modernized.
+
+4) *Ruby 3* - Ruby 3 has been to add type checking tooling. 
+
+5) *Enabling AWS Lambda Functions to call into the Square datacenter’s envoy service mesh* thus enabling Serverless Applications at Square.
+
+6) *Anvil* - Anvil is a Kotlin compiler plugin that automatically adds Dagger modules and component interfaces to the required Dagger components.
+
+7) *Atlas* - Atlas helps machine learning practitioners take projects from 0 to 100 fast, with features that make it easy to run, evaluate and deploy thousands of experiments concurrently. Atlas consists of a Python SDK, CLI, GUI & Scheduler.
+
+8) *PySurvival* - PySurvival is an open source python package for Survival Analysis modeling — the modeling concept used to analyze or predict when an event is likely to happen. It is built on top the most commonly used machine learning packages: NumPy, SciPy, and PyTorch.
+
+9) *Beta* **(*a booking API*)** - Beta enables square to create a free online booking website that manages scheduling, staffing, inventory, customers, and payments in a single point of sale. 
+
+10) *OAuth Revocation Webhook* - OAuth revocation events make it easier for developers to respond when a connected merchant revokes all access tokens, or when an application revokes access/refresh tokens granted to it. Revocation webhooks can help reduce occurrences of 401 Unauthorized errors due to revoked access tokens, and provide revocation visibility for purposes of security auditing and application usage analytics.
+
 
 ## Landscape:
 
@@ -104,21 +123,33 @@ Here's a list of fees you won't pay when you use Square as your processing compa
 
 * If you were to advise the company, what products or services would you suggest they offer? (This could be something that a competitor offers, or use your imagination!)
 
+One major product that I would advise square to incorporate would be the online payment option to customers during checkout on online purchases. This is a field that has been mainly dominated by major key player; Paypal.
+
 * Why do you think that offering this product or service would benefit the company?
+
+Given all the products that we have mentioned, we see that square is **almost** monopolizing the market in this domain. There are offering some of the products that square offers however, it's ability to provide low flexible prices gives them an advantage over the rest. However for a merchant who has a brick and motor store and also provides online services, they can only use square in-store but will be forced to use another company to receive their online sales payments. With the online checkout option, square will completely take over this domain and leave little to no room for comppetition. The idea behind is to give customers an ability to make safe and easy transactions online without involving credit or debit cards.
+
 
 * What technologies would this additional product or service utilize?
 
+Just like the other firms in this domain, the technologies used will be Java to JavaScript and Node.js. Node.js will help bridge the browser and server applications to be written in JavaScript.
+
 * Why are these technologies appropriate for your solution?
 
+ These technologies will unify engineering specialties into one team which allows them to understand and react to users’ needs at any level in the technology stack.
 
 ## References
 1) https://en.wikipedia.org/wiki/Square,_Inc.
 2) https://www.investopedia.com/articles/tech/021017/square.asp
 3) https://www.reuters.com/companies/SQ
 4) https://finance.yahoo.com/quote/SQ/profile/
-5) Square register;vhttps://squareup.com/shop/hardware/us/en/products/register-pos
+5) [Square register](https://squareup.com/shop/hardware/us/en/products/register-pos)
 6) https://growthhackers.com/growth-studies/square
-7) The payment industry biggest trends; https://www.businessinsider.com/payments-ecosystem-report
-8) Top digital payment trends; https://www.digipay.guru/blog/top-digital-payment-trends/
+7) [The payment industry biggest trends](https://www.businessinsider.com/payments-ecosystem-report)
+8) [Top digital payment trends](https://www.digipay.guru/blog/top-digital-payment-trends/)
 9) NFC Payments; https://fitsmallbusiness.com/nfc-payments/, https://en.wikipedia.org/wiki/Contactless_payment
 10) Mobile payments; https://www.investopedia.com/terms/m/mobile-wallet.asp, https://en.wikipedia.org/wiki/Mobile_payment
+11) https://en.wikipedia.org/wiki/PayPal
+12) https://www.business.com/reviews/square-mobile-credit-card-processing/
+13) [The Corner](https://developer.squareup.com/blog/)
+14) [Square Github](https://square.github.io/)
